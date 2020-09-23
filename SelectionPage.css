@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+#toppart{
+    width: 500px;
+    color: #39ff14;
+    margin-top: 20px;
+    margin-left:10px;
+    font-size:50px;
+    border-style: solid;
+    border-color: #39ff14;
+    border-width: 5px;
+    box-shadow: 0 0 100px #39ff14;
+}
