@@ -4,17 +4,126 @@
 }
 
 body{
-    background-color: black;
+    background-color:black;
 }
 
 #toppart{
-    width: 500px;
-    color: #39ff14;
-    margin-top: 20px;
-    margin-left:10px;
-    font-size:50px;
-    border-style: solid;
-    border-color: #39ff14;
-    border-width: 5px;
-    box-shadow: 0 0 100px #39ff14;
+    top: 0%;
+    width: 100%;
+    height: 100px;
+    background-color:#bf3eff;
+    position:fixed;
+    box-shadow: 0 0 20px #bf3eff;
+}
+
+#bottompart{
+    bottom: 0%;
+    width: 100%;
+    height: 100px;
+    background-color:#bf3eff;
+    position:fixed;
+    box-shadow: 0 0 100px #bf3eff;
+}
+
+#Q1{
+    font-size:60px;
+    text-align: center;
+    width: 100%;
+    height:;
+    margin-bottom: 200px;
+    color: #7cfc00;
+    margin-top: 100px;
+    background-color: ;
+}
+
+
+/*------------------------*/
+
+
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div
+{
+    margin: 10px;   
+}
+
+.container div label
+{
+    cursor: pointer;  
+}
+
+.container div label input[type="checkbox"]
+{
+    display: none;
+}
+
+.container div label span
+{
+    position:;
+    display: inline-block;
+    background: #424242;
+    padding: 15px 30px;
+    color: #555;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    font-size: 20px;
+    transition: 0.5s;
+    user-select: none;
+    overflow: hidden;
+}
+
+.container div label span:before
+{
+    content: '';
+    position:;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 50%;
+    background: rgba(255,255,255,0.1);
+    
+}
+
+
+.container div:nth-child(6n+1) label input[type="checkbox"]:checked ~ span
+{
+    background: #e91e63;
+    color: #fff;
+    box-shadow: 0 2px 20px #e91e63;
+}
+
+.container div:nth-child(6n+2) label input[type="checkbox"]:checked ~ span
+{
+    background: #0f0;
+    color: #fff;
+    box-shadow: 0 2px 20px #0f0;
+}
+
+.container div:nth-child(6n+3) label input[type="checkbox"]:checked ~ span
+{
+    background: #df01d7;
+    color: #fff;
+    box-shadow: 0 2px 20px #df01d7;
+}
+
+.container div:nth-child(6n+4) label input[type="checkbox"]:checked ~ span
+{
+    background: #2e2e2e;
+    color: #fff;
+    box-shadow: 0 2px 20px #2e2e2e;
+}
+
+/*        =-iogwfhjk     */
+
+
+audio{
+    position:fixed;
+    background-color: ;
+    width:;
 }
